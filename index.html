@@ -17,7 +17,7 @@
   function runApp() {
     liff.getProfile().then(profile => {
         console.log(profile);
-         window.location.href = "http://pnh-line.web.app/#/check/?userid="+profile.userId+"&picture="+profile.pictureUrl+"&displayName="+profile.displayName;
+         window.location.href = "https://pnh-line.web.app/#/check/?userid="+profile.userId+"&picture="+profile.pictureUrl+"&displayName="+profile.displayName;
         //  window.location.href = "http://203.113.122.165:18880?userid="+profile.userId;
     }).catch(err => console.error(err));
   }

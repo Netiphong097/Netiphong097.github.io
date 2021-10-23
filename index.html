@@ -17,7 +17,7 @@
   function runApp() {
     liff.getProfile().then(profile => {
         console.log(profile);
-         window.location.href = "https://716f-203-113-122-165.ngrok.io/ttms/chk.php?uid="+profile.userId+"&pictureUrl="+profile.pictureUrl+"&displayName="+profile.displayName;
+         window.location.href = "https://f205-2403-6200-8810-418f-71e5-d61d-b248-d1fc.ngrok.io/#/check/?userid="+profile.userId+"&picture="+profile.pictureUrl+"&displayName="+profile.displayName;
         //  window.location.href = "http://203.113.122.165:18880?userid="+profile.userId;
     }).catch(err => console.error(err));
   }
